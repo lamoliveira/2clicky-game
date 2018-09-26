@@ -7,7 +7,7 @@ import Alert from "../components/Alert";
 
 class Search extends Component {
   state = {
-    search: "",
+    search: "bulldog",
     breeds: [],
     results: [],
     error: ""
@@ -15,17 +15,24 @@ class Search extends Component {
 
   // When the component mounts, get a list of all available base breeds and update this.state.breeds
   componentDidMount() {
+//    this.setState({ search: "bulldog" });
     API.getBaseBreedsList()
       .then(res => this.setState({ breeds: res.data.message }))
       .catch(err => console.log(err));
+      this.handleFormSubmit();
   }
 
   handleInputChange = event => {
     this.setState({ search: event.target.value });
   };
 
+  handleFormSubmitDefault = event => {
+     event.preventDefault();
+     this.setState({ search: event.target.value });
+     this.handleFormSubmit();
+  };
+
   handleFormSubmit = event => {
-    event.preventDefault();
     API.getDogsOfBreed(this.state.search)
       .then(res => {
         if (res.data.status === "error") {

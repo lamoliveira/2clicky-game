@@ -4,7 +4,7 @@ import "./Card.css";
 
 const Card = props => (
   <div
-    className="card"
+    className="carddog"
     style={{
       backgroundImage: props.image ? `url(${props.image})` : "none"
     }}

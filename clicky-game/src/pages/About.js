@@ -8,23 +8,24 @@ const About = () => (
   <div>
     <Hero backgroundImage="https://i.imgur.com/knvH0T7.jpg">
       <h1>Click-Game</h1>
-      <h2>You can choose what kind of image you wanna play</h2>
+      <h2>You can choose what kind of image you want to play</h2>
     </Hero>
     <Container style={{ marginTop: 30 }}>
       <Row>
         <Col size="md-12">
-          <h1>Welcome To Click Game!</h1>
+          <h1>Welcome To Puppies Game!</h1>
         </Col>
       </Row>
       <Row>
         <Col size="md-12">
           <p>
-            Choose
+            Choose Play to enjoy our memory game
           </p>
           <p>
-            
+            Choose Discover to see other puppies you'd like to meet
           </p>
           <p>
+            Choose Search to find beautiful pictures of your prefered breed
           </p>
         </Col>
       </Row>

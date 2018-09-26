@@ -1,4 +1,11 @@
 .wrapper {
-  min-height: 100%;
-  padding-bottom: 100px;
+  background: rgb(175, 175, 175);
+  /*background-image: url('');*/
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  padding-bottom: 10px;
 }
