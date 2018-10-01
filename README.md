@@ -1,6 +1,6 @@
 # **Dynamic Clicky-game with animals pictures**
 
-### To view the deployed version, _**[click here!](https://dry-fortress-40199.herokuapp.com/)**_
+### To view the deployed version, _**[click here!](https://still-savannah-23314.herokuapp.com/)**_
 
 ## Technologies used:
 * Node.js
@@ -15,18 +15,25 @@
 * CSS3 
 * HTML5
 
-## choose using the buttons wich animal you want to play a memory game with 10 different images 
-![Clicky Img](public/assets/img/clicky1.png)
-
 ## This is an app that uses react app and there are 3 pages:
 
-Sample site 1: Globo Brazil
+Sample site 1: Hone
+![Clicky Img](public/assets/img/clicky1.png)
+
+##  play a memory game with 10 different images initially dogs 
 ![Clicky Img](public/assets/img/clicky2.png)
-Sample site 2: NYTimes USA
+
+## choose using the buttons wich animal you want to play a memory game with 10 different images 
+![Clicky Img](public/assets/img/clicky3.png)
+
+## choose discover to play a friend finder with aleatory images 
+![Clicky Img](public/assets/img/clicky4.png)
+
+## choose search to be able to see pictures of your prefered breed 
 ![Clicky Img](public/assets/img/clicky3.png)
 
 
+
 ## Next steps
-- Organize components. 
-- Permit create more animal nuttons
-- 
+- Choose another aninals or subjects creating more animal nuttons
+- Organize components and use util API instead of request
