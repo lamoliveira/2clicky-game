@@ -18,19 +18,19 @@
 ## This is an app that uses react app and there are 3 pages:
 
 Sample site 1: Hone
-![Clicky Img](blob/master/public/assets/img/clicky1.jpg)
+![Clicky Img](public/assets/img/clicky1.jpeg)
 
 ##  play a memory game with 10 different images initially dogs 
-![Clicky Img](blob/master/public/assets/img/clicky2.jpg)
+![Clicky Img](public/assets/img/clicky2.jpeg)
 
 ## choose using the buttons wich animal you want to play a memory game with 10 different images 
-![Clicky Img](blob/master/public/assets/img/clicky3.jpg)
+![Clicky Img](public/assets/img/clicky3.jpeg)
 
 ## choose discover to play a friend finder with aleatory images 
-![Clicky Img](blob/master/public/assets/img/clicky4.jpg)
+![Clicky Img](public/assets/img/clicky4.jpeg)
 
 ## choose search to be able to see pictures of your prefered breed 
-![Clicky Img](blob/master/public/assets/img/clicky5.jpg)
+![Clicky Img](public/assets/img/clicky5.jpeg)
 
 
 
